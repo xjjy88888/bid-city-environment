@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="shortcut icon" href="favicon.png">
+	<title></title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<script src="assets/js/common/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="assets/js/common/layer.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<!--logo and nav-->
+	<div class="wbox12 ctop_nav relative z20">
+		<div class="w1200 ctop_navCon clearfix relative m20">
+			<div class="logo">
+				<a href="#">
+					<img src="assets/images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="ctop_navConG absolute">
+				<a href="#">
+					<i></i>管理员
+					<!---->
+				</a>
+			</div>
+		</div>
+		<!-- <div class="w1200 ctop_navCon clearfix relative menu">
+			<div class="nav  relative">
+				<div class="nav_bg absolute z10"></div>
+				<ul class="clearfix relative z50">
+					<li >
+						<a href="#">首页</a>
+					</li>
+					<li class="on">
+						<a href="#">监测预警</a>
+						<div class="box">
+							<a href="#">空气质量监测</a>
+							<a href="#">空气质量监测</a>
+							<a href="#">水环境质量监测</a>
+							<a href="#">污染源监控</a>
+							<a href="#">视频监控</a>
+							<a href="#">监测智能报警与关联分析</a>
+
+						</div>
+
+					</li>
+					<li>
+						<a href="#">综合分析</a>
+					</li>
+					<li>
+						<a href="#">决策支持</a>
+					</li>
+					<li>
+						<a href="#">应急响应</a>
+					</li>
+					<li>
+						<a href="#">环境监管</a>
+					</li>
+					<li>
+						<a href="#">公众参与</a>
+					</li>
+				</ul>
+			</div>
+		</div> -->
+		<div class="menu w1200 ctop_navCon clearfix relative">
+			<ul class="nav clearfix">
+				<li >
+					<a href="#" class="current">首页</a>
+				</li>
+				<li>
+					<a href="#">监测预警</a>
+				</li>
+				<li>
+					<a href="#">综合分析</a>
+				</li>
+				<li>
+					<a href="#">决策支持</a>
+				</li>
+				<li>
+					<a href="#">应急响应</a>
+				</li>
+				<li>
+					<a href="#">环境监管</a>
+				</li>
+				<li>
+					<a href="#">公众参与</a>
+				</li>
+				<li>
+					<a href="#">生态环境大数据</a>
+				</li>
+			</ul>
+			<div class="tab-div-wrap">
+				<div class="box box1">
+					<a href="#">空气质量检测</a>
+					<a href="#">水环境质量检测</a>
+					<a href="#">污染源监测</a>
+					<a href="#">视频监控</a>
+					<a href="#">监测智能报警与关联分析</a>
+				</div>
+				<div class="box box2">
+					<a href="#">大数据智能挖掘分析</a>
+					<a href="#">大气复合污染深度专题分析</a>
+				</div>
+				<div class="box box3">
+					<a href="#">减排措施和减排潜力动态评估子系统</a>
+					<a href="#">减排与空气质量快速响应子系统</a>
+					<a href="#"> 社会经济成本评估子系统</a>
+					<a href="#">效益评估系统</a>
+					<a href="#">达标评估系统</a>
+					<a href="#"> 数据融合及可视化分析</a>
+				</div>
+				<div class="box box4">
+					<a href="#">应急启动与任务分派</a>
+					<a href="#">过程监测</a>
+					<a href="#"> 效果评估</a>
+				</div>
+				<div class="box box5">
+					<a href="#">企业监管</a>
+					<a href="#">网格化监管</a>
+					<a href="#">三线一单监管</a>
+					<a href="#">环境监管APP</a>
+				</div>
+				<div class="box box6">
+					<a href="#">信息发布</a>
+					<a href="#">市民在行动</a>
+					<a href="#">舆情跟踪</a>
+				</div>
+				<div class="box box7">
+					<a href="#">污染源主体数据库</a>
+					<a href="#">环境质量主体数据库</a>
+					<a href="#">社会公用主题数据库</a>
+					<a href="#">业务专项主题数据库</a>
+					<a href="#">环境电子档案主题数据库</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--banner-->
+	<div class="cban_box relative overhidden z10 wbox12" id="cban_box">
+		<!-- banner图 -->
+		<ul class="list relative z10">
+			<li style="background:url(static/data/upfiles/scrollpic/banner1.jpg) no-repeat center top;background-size:100% 100%;">
+				<a href="#"></a>
+			</li>
+			<li style="background:url(static/data/upfiles/scrollpic/banner2.jpg) no-repeat center top;background-size:100% 100%;">
+				<a href="#"></a>
+			</li>
+			<li style="background:url(static/data/upfiles/scrollpic/banner3.jpg) no-repeat center top;background-size:100% 100%;">
+				<a href="#"></a>
+			</li>
+
+		</ul>
+		<!-- <div class="absolute z15 chubd w1200"></div> -->
+	</div>
+
+	<!-- 通知公告 -->
+	<div class="ctz_box wbox12 relative overhidden">
+		<div class="ctz_con w1200 relative" id="tz">
+			<ul>
+				<li>
+					<!-- <span>[2017-09-11]</span> -->
+					<a href="javascript:;" target="_blank">济南市贯彻落实中央环境保护督察组督察反馈意见整改落实实施方案</a>
+				</li>
+				<li>
+					<!-- <span>[2017-08-31]</span> -->
+					<a href="javascript:;" target="_blank">为了使您有更好的使用体验，系统定于本周六晚20:00—24:00进行系统优化升级，升级期间系统部分功能暂时关闭，请您谅解！</a>
+				</li>
+			</ul>
+			<!-- <a href="notice.html" class="mor">查看更多</a> -->
+		</div>
+	</div>
+	<!-- 平台数据 -->
+	<div class="csz_box wbox12 relative overhidden">
+		<div class="csz_con w1200">
+			<ul class="clearfix">
+				<li class="li01" znum="189,228,502">
+					<span class="database-pic"></span>
+					<p>污染源主体数据库：<span class="data-num" id="li_btn01">48.26T</span></p>
+					<p>今日更新：<span class="data-num" >832MB</span></p>
+				</li>
+				<li class="li02" znum="1,051,935">
+					<span class="database-pic"></span>
+					<p>环境质量主体数据库：
+						<span class="data-num" id="li_btn01">0.34T</span>
+					</p>
+					<p>今日更新：
+						<span class="data-num">112MB</span>
+					</p>
+				</li>
+				<li class="li03" znum="22,207,677">
+					<span class="database-pic"></span>
+					<p>社会公用主题数据库：
+						<span class="data-num" id="li_btn01">103T</span>
+					</p>
+					<p>今日更新：
+						<span class="data-num">965MB</span>
+					</p>
+				</li>
+				<li class="li04" znum="2,642">
+					<span class="database-pic"></span>
+					<p>业务专项主题数据库：
+						<span class="data-num" id="li_btn01">0.12T</span>
+					</p>
+					<p>今日更新：
+						<span class="data-num">98MB</span>
+					</p>
+				</li>
+				<li class="li04" znum="2,642">
+					<span class="database-pic"></span>
+					<p>环境电子档案主题数据库：
+						<span class="data-num" id="li_btn01">295.5T</span>
+					</p>
+					<p>今日更新：
+						<span class="data-num">1012MB</span>
+					</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--首页优势-->
+	<div class="cys_box relative overhidden">
+		<div class="cys_con relative w1200">
+			<div class="cys_sx cys_sx01 absolute"></div>
+			<div class="cys_sx cys_sx02 absolute"></div>
+			<div class="cys_sx cys_sx03 absolute"></div>
+			<div class="cys_sx cys_sx04 absolute"></div>
+			<div class="cys_conOne cys_conList clearfix">
+				<div class="pic relative">
+					<div class="cicle absolute"></div>
+					<div class="ys_z absolute"></div>
+				</div>
+				<div class="txt">
+					<a href="http://61.153.218.162:81/tjfx" target="_blank">
+						<h6>空气质量监测</h6>
+					</a>
+
+				</div>
+			</div>
+
+			<div class="cys_conTwo cys_conList clearfix">
+				<div class="pic relative">
+					<div class="cicle absolute"></div>
+					<div class="ys_z absolute"></div>
+				</div>
+				<div class="txt">
+					<a href="http://202.104.140.38:81/ZHHB_GIS_V3/#" target="_blank">
+						<h6>污染源监控</h6>
+					</a>
+				</div>
+			</div>
+
+			<div class="cys_conThree cys_conList clearfix">
+				<div class="pic relative">
+					<div class="cicle absolute"></div>
+					<div class="ys_z absolute"></div>
+				</div>
+				<div class="txt">
+					<a href="http://180.97.90.86:88/WRYQGCJKPT/" target="_blank">
+						<h6>视频监控</h6>
+					</a>
+				</div>
+			</div>
+			<div class="cys_conFour cys_conList clearfix" >
+				<div class="pic relative">
+					<div class="cicle absolute"></div>
+					<div class="ys_z absolute"></div>
+				</div>
+				<div class="txt">
+					<a href="http://120.192.59.99:8090/wgh/" target="_blank">
+						<h6>网格化监管</h6>
+					</a>
+				</div>
+			</div>
+
+			<div class="cys_conFive cys_conList clearfix">
+				<div class="pic relative">
+					<div class="cicle absolute"></div>
+					<div class="ys_z absolute"></div>
+				</div>
+				<div class="txt">
+					<a href="重污染控制/预警信息.html" target="_blank">
+						<h6>重污染应急响应</h6>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="cfoot_box wbox12">
+		<div class="footer_db w1200 clearfix">
+			<!-- <span class="absolute foot-icon1">
+				<img src="assets/images/foot-icon1.png" alt="">
+			</span> -->
+			<p class="foot-text">
+				<span>版权所有:济南市人民政府办公厅主办 </span>
+				<span>网站标识码：3701000001 鲁ICP备：05041920 </span>
+				<span>技术支持:浪潮软件集团 </span>
+			</p>
+			<!-- <span class="absolute foot-icon2">
+				<img src="assets/images/foot-icon2.png" alt="">
+			</span> -->
+		</div>
+	</div>
+	<script>
+		$(function () {
+			var winw = parseInt($(window).width());
+			console.log(winw);
+
+			// $('.menu .nav .box').css("width", winw);
+			$('.menu .tab-div-wrap .box').css({ 'padding-left': (winw - 1200) / 2, 'padding-right': (winw - 1200) / 2, 'margin-left': -(winw - 1200) / 2 });
+
+			var navLi = $(".menu .nav li");
+			
+			navLi.hover(function () {
+				// debugger;
+				var index = $(this).index();
+				$(this).find("a").addClass("current").parent().siblings().find("a").removeClass("current");
+				$(this).parent().siblings(".tab-div-wrap").find(".box"+index).show(200).siblings().hide();
+
+			},function(){
+				$(this).parent().siblings(".tab-div-wrap").find(".box").hide(200);
+			});
+		})
+	</script>
+	<script type="text/javascript">
+		$(function () {
+			//BANNER
+			$("#cban_box").CbanShow();
+			//通知公告
+			$("#tz").TzShow();
+
+			//数字滚动
+			var sz_num01 = $("#li_btn01").html();     // 交易总额
+			var sz_num02 = $("#li_btn02").html();     // 赚取收益
+			var sz_num03 = $("#li_btn03").html();     // 待收总额
+			var sz_num04 = $("#li_btn04").html();     // 投资人数
+
+			var str_num01 = "", str_num02 = "", str_num03 = "", str_num04 = "";
+			$(".csz_con ul li:eq(0)").Cnum({ num: sz_num01, strNum: str_num01, Ztf: true });
+			$(".csz_con ul li:eq(1)").Cnum({ num: sz_num02, strNum: str_num02, Ztf: true });
+			$(".csz_con ul li:eq(2)").Cnum({ num: sz_num03, strNum: str_num03, Ztf: true });
+			$(".csz_con ul li:eq(3)").Cnum({ num: sz_num04, strNum: str_num04, Ztf: true });
+			$(".csz_con ul li").hover(function () {
+				$(this).Cnum({ num: sz_num01, strNum: str_num01, Ztf: false });
+			})
+
+		})
+	</script>
+
+	<script>
+		$(function () {
+			var tcFs = true;
+			var name = "welcome=";
+			var ca = document.cookie.split(';');
+
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') c = c.substring(1);
+				if (c.indexOf(name) != -1) {
+					var show = c.substring(name.length, c.length);
+					tcFs = false;
+				} else {
+					// 首次访问
+					document.cookie = "welcome=show";
+					if ($("#special").val() == 0) {
+						tcFs = false;   // 没活动或者活动结束，暂时关闭
+					}
+				}
+			}
+
+			if (tcFs) {
+				tcInd();
+			}
+			//首页弹出活动
+			function tcInd() {
+				window.onload = function () {
+					var tcH = $(".cTcActiv").height();
+					$(".cTcActiv").css({ "top": "50%", "margin-top": -tcH / 2 - 30 + "px" });
+					$(".cbgBoxInd").show().stop().animate({ "opacity": "0.5" }, 300);
+					$(".cTcActiv").show().stop().animate({ "opacity": "1" }, 300);
+					$(".cTcActiv .cTcActiv_Btn a.fq,.cbgBoxInd").click(function () {
+						$(".cTcActiv,.cbgBoxInd").stop().animate({ "opacity": "0" }, 300, function () {
+							$(this).hide();
+						});
+					});
+
+				}
+			}
+		})
+	</script>
+
+
+	<script src="assets/js/common/js.js" type="text/javascript"></script>
+
+
+
+	<script type="text/javascript">
+		var cnzz_s_tag = document.createElement('script');
+		cnzz_s_tag.type = 'text/javascript';
+		cnzz_s_tag.async = true;
+		cnzz_s_tag.charset = 'utf-8';
+		cnzz_s_tag.src = 'https://w.cnzz.com/c.php?id=1258441598&async=1';
+		var root_s = document.getElementsByTagName('script')[0];
+		root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+	</script>
+
+</body>
+
+</html>

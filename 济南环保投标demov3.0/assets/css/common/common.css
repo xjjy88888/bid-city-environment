@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*通用样式ͨ*/
+/* reset  css */
+body {
+    font: 14px "microsoft yahei", Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0;
+    padding:0;
+    /* 盒子模型，防止x轴出现滚动条 */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* 轻击 轻触,移动端特有 */
+    -webkit-tap-highlight-color: transparent;
+
+}
+li{ list-style:none;}
+a{
+    color:#000;
+    text-decoration: none;
+}
+input,textarea {
+    outline: none;
+    border: none;
+    /* 不允许改变尺寸 */
+    resize: none;
+    /* 去掉控件的外观，主要针对各个浏览展现的不同，移动端特有的 */
+    -webkit-appearance: none;
+}
+button{outline: none;}
+img{vertical-align: middle}
+.clear::after,.clear::before {
+    content:"";
+    display:block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear:both;
+}
+.lf {
+    float: left;
+}
+.lr {
+    float: right;
+}
+/*=================================*/
+
+
+
